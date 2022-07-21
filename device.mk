@@ -38,7 +38,7 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_EXCLUDES_AUDIOFX := true
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio.service-mediatek \
+    android.hardware.audio.service \
     android.hardware.audio@6.0-impl \
     android.hardware.audio.effect@6.0-impl \
     audio.a2dp.default \
