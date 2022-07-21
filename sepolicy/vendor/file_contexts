@@ -14,3 +14,6 @@
 
 # Goodix Fingerprint data
 /data/vendor/fingerprint/gf_data(/.*)? u:object_r:fingerprint_vendor_data_file:s0
+
+# Battery
+/sys/devices/platform/charger/power_supply/battery/present u:object_r:sysfs_batteryinfo:s0
