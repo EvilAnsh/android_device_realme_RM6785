@@ -42,6 +42,9 @@ on property:sys.boot_completed=1
     # Update fastcharge firmware
     write /proc/fastchg_fw_update 1
 
+    # EAS
+    write /sys/devices/system/cpu/eas/enable 1
+
     # OTG
     write /sys/class/power_supply/usb/otg_switch 1
 
