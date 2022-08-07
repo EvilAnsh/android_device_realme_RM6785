@@ -1,7 +1,6 @@
-# All unpinned blobs are from RMX2002GDPR_11_C.17
+# All unpinned blobs are from RMX2002GDPR_11_C.19
 
 # Audio
-
 odm/etc/audio/audio_device/audio_device.xml
 odm/etc/audio/audio_device/common/audio_device.xml
 odm/etc/audio/audio_param/AudioParamOptions.xml
