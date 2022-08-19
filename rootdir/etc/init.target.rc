@@ -6,17 +6,6 @@ on init
     write /dev/cpuset/restricted/cpus 0-5
     write /dev/cpuset/system-background/cpus 0-3
 
-on fs
-    mount_all /vendor/etc/fstab.mt6785 --early
-    mount_all /vendor/etc/fstab.mt6785 --late
-
-on post-fs
-    # Unmount the overridden fstab because the SELinux label is incorrect
-    # and some MTK daemons can crash because of that
-    # (at post-fs, the fstab has already been used to mount the partitions,
-    #  so it is fine to just revert back)
-    umount /vendor/etc/fstab.mt6785
-
 on post-fs-data
     # VideoCodec
     chmod 0666 /dev/video0
