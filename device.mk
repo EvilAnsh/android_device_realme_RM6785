@@ -233,7 +233,8 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.3.vendor
+    android.hardware.power-service.RM6785-libperfmgr \
+    android.hardware.power@1.3.vendor:64
 
 # Properties
 -include $(LOCAL_PATH)/properties.mk
@@ -266,6 +267,8 @@ PRODUCT_PACKAGES += \
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
+    hardware/google/interfaces \
+    hardware/google/pixel \
     $(LOCAL_PATH)
 
 # Soundtrigger
