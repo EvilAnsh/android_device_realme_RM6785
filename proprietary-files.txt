@@ -2125,7 +2125,6 @@ vendor/etc/mtk_omx_core.cfg
 -vendor/lib/libvpud_vcodec.so
 -vendor/lib/libvpu.so
 -vendor/lib/vendor.mediatek.hardware.mtkcodecservice@1.1.so
--vendor/lib/vndk/libstagefright_omx.so;MODULE=libstagefright_omx.mtk
 -vendor/lib/VP9SecureVdecCA.so
 
 # Mediatek AAL
