@@ -53,6 +53,9 @@ function blob_fixup {
         vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so)
             grep -q libshim_camera_metadata.so "$2" || "$PATCHELF" --add-needed libshim_camera_metadata.so "$2"
             ;;
+        vendor/lib64/libcam.halsensor.so)
+             grep -q "libshim_utils.so" "$2" || "$PATCHELF" --add-needed "libshim_utils.so" "$2"
+            ;;
         vendor/lib64/libmtkcam_stdutils.so)
             grep -q "$PATCHELF" "libshim_mtkcam.so" || "$PATCHELF" --add-needed "libshim_mtkcam.so" "$2"
             ;;
