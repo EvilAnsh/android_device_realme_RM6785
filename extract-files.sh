@@ -42,6 +42,9 @@ function blob_fixup {
         vendor/etc/init/hw/*.rc)
             sed -i 's ${ro.vendor.rc} /vendor/etc/init/hw/ g' "$2"
             ;;
+        vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so)
+            grep -q libshim_camera_metadata.so "$2" || "$PATCHELF" --add-needed libshim_camera_metadata.so "$2"
+            ;;
         vendor/lib*/libmtkcam_stdutils.so)
             "$PATCHELF" --replace-needed "libutils.so" "libutils-v30.so" "$2"
             ;;
