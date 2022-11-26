@@ -288,9 +288,6 @@ PRODUCT_BOOT_JARS += \
     mediatek-telephony-base \
     mediatek-telephony-common \
 
-PRODUCT_PACKAGES += \
-    libshim_vtservice
-
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-impl \
