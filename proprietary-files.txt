@@ -1037,7 +1037,6 @@ vendor/etc/ncf_pack.ncf
 -vendor/lib/libstface_fd_api.so
 -vendor/lib/libtflite_mtk.so
 -vendor/lib/libtflite_mtk_static_R.so
--vendor/lib/libudf.so
 -vendor/lib/ov02b10_mipi_raw_IdxMgr.so
 -vendor/lib/ov02b10_mipi_raw_tuning.so
 -vendor/lib/ov02b1b_mipi_mono_IdxMgr.so
@@ -1612,7 +1611,6 @@ vendor/etc/ncf_pack.ncf
 -vendor/lib64/libstface_fd_api.so
 -vendor/lib64/libtflite_mtk.so
 -vendor/lib64/libtflite_mtk_static_R.so
--vendor/lib64/libudf.so
 -vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so
 -vendor/lib64/ov02b10_mipi_raw_IdxMgr.so
 -vendor/lib64/ov02b10_mipi_raw_tuning.so
@@ -1641,6 +1639,9 @@ vendor/etc/ncf_pack.ncf
 -vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so
 -vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 -vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
+
+# UDF (Userspace debugging framework) - from RMX2151_11_F.01
+-vendor/lib64/libudf.so|66324571c3f69057b250bce3b0d58c386da0c25b
 
 # Charger
 -bin/charger:bin/chargeonlymode|eeb5a0e80057cce782b4555389310e83a408ad37
@@ -2692,10 +2693,6 @@ vendor/etc/init/init.thermalloadalgod.rc
 -vendor/bin/hw/android.hardware.usb@1.1-service-mediatek
 vendor/etc/default_pd_calibration.bin
 vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc
-
-# VNDK
--vendor/lib/libunwindstack-v30.so|a4542799a5c9e091f29b613d02daecfcdf395b36
--vendor/lib64/libunwindstack-v30.so|d309107e725a410e7ad05561a04359065e7c230e
 
 # Wifi - From merlin-user-11-RP1A.200720.011-V12.5.2.0.RJOMIXM-release-keys
 -vendor/bin/hw/hostapd|22d0e25a3779bd1a8335402f689e5ed2d3eca83a
