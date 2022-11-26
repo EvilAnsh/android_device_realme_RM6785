@@ -24,4 +24,4 @@ get_prop(hal_audio_default, vendor_mtk_default_prop)
 get_prop(hal_audio_default, vendor_mtk_tel_switch_prop)
 get_prop(hal_audio_default, vendor_audio_prop)
 set_prop(hal_audio_default, vendor_audio_prop)
-
+set_prop(hal_audio_default, vendor_mtk_audiohal_prop)
