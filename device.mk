@@ -240,6 +240,10 @@ PRODUCT_PACKAGES += \
     libmtkperf_client_vendor \
     libmtkperf_client
 
+PRODUCT_PACKAGES += \
+    vendor.mediatek.hardware.mtkpower@1.0.vendor \
+    vendor.mediatek.hardware.mtkpower@1.1.vendor
+
 # Properties
 -include $(LOCAL_PATH)/properties.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
