@@ -8,7 +8,6 @@
 /vendor/bin/hw/android\.hardware\.power-service\.RM6785-libperfmgr u:object_r:hal_power_default_exec:s0
 
 # Devices
-/dev/goodix_fp u:object_r:goodix_device:s0
 /dev/pn553 u:object_r:nfc_device:s0
 /dev/m_virtual_sensor_misc(/.*)? u:object_r:virtual_sensor_device:s0
 
