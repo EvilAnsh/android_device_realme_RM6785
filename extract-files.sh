@@ -36,8 +36,8 @@ source "${HELPER}"
 
 function blob_fixup {
     case "$1" in
-        product/etc/permissions/com.android.hotwordenrollment.common.util.xml)
-            sed -i 's/my_product/product/' "$2"
+        system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml)
+            sed -i 's/my_product/system_ext/' "$2"
             ;;
         vendor/etc/init/hw/*.rc)
             sed -i 's ${ro.vendor.rc} /vendor/etc/init/hw/ g' "$2"
