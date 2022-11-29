@@ -2344,7 +2344,6 @@ vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc
 -vendor/lib64/vendor.mediatek.hardware.pq@2.4.so
 -vendor/lib64/vendor.mediatek.hardware.pq@2.5.so
 -vendor/lib64/vendor.mediatek.hardware.pq@2.6.so
->>>>>>> fcc727a (RM6785: Unpin power blobs)
 
 # Public libraries
 vendor/etc/public.libraries.txt
