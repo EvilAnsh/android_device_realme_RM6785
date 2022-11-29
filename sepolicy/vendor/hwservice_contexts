@@ -5,6 +5,9 @@ vendor.oplus.hardware.commondcs::ICommonDcsHalService u:object_r:hal_commondcs_h
 vendor.oplus.hardware.biometrics.fingerprint::IBiometricsFingerprint u:object_r:hal_fingerprint_hwservice:s0
 vendor.oplus.hardware.biometrics.fingerprintservice::IFingerprintHalService u:object_r:hal_fingerprint_hwservice:s0
 
+# Keyinstall
+vendor.mediatek.hardware.keyinstall::IKeyinstall u:object_r:mtk_hal_keyinstall_hwservice:s0
+
 # Radio
 vendor.oplus.hardware.radio::IOplusRadio u:object_r:hal_telephony_hwservice:s0
 vendor.oplus.hardware.appradio::IOplusAppRadio u:object_r:hal_telephony_hwservice:s0
