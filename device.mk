@@ -77,10 +77,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OplusDoze
 
-# DT2W
-PRODUCT_PACKAGES += \
-    DT2W-Service-RM6785
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
@@ -247,10 +243,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
-# Properties
--include $(LOCAL_PATH)/properties.mk
-PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Radio
 PRODUCT_PACKAGES += \
