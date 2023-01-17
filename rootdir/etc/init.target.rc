@@ -1,3 +1,7 @@
+on init
+    # Update fastcharge firmware
+    write /proc/fastchg_fw_update 1
+
 on fs
     # Update touchpanel firmware in case we ship newer firmware in /odm
     write /proc/touchpanel/tp_fw_update 0
@@ -23,9 +27,6 @@ on property:sys.boot_completed=1
 
     # Enable oppo touchpanel direction
     write /proc/touchpanel/oplus_tp_direction 1
-
-    # Update fastcharge firmware
-    write /proc/fastchg_fw_update 1
 
     # EAS
     write /sys/devices/system/cpu/eas/enable 1
