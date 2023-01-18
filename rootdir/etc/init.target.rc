@@ -61,9 +61,8 @@ service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
     user nfc
     group nfc
 
-service vendor.charger /system/bin/chargeonlymode
+service charger /bin/chargeonlymode
     class charger
-    user system
-    group system graphics input
-    capabilities SYS_BOOT
+    critical
     seclabel u:r:charger:s0
+    group system graphics
