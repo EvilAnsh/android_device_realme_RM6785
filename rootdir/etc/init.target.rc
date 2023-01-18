@@ -29,7 +29,7 @@ on property:sys.boot_completed=1
     write /proc/touchpanel/oplus_tp_direction 1
 
     # EAS
-    write /sys/devices/system/cpu/eas/enable 1
+    write /sys/devices/system/cpu/eas/enable 2
 
     # OTG
     write /sys/class/power_supply/usb/otg_switch 1
