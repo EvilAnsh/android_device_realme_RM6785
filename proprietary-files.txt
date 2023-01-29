@@ -2441,7 +2441,7 @@ vendor/etc/virtual-spn-conf-by-imsi.xml
 -vendor/lib64/vendor.mediatek.hardware.pplagent@1.0.so
 
 # Radio (ImsService) - https://github.com/realme-mt6785-devs/ImsService
--priv-app/ImsService/ImsService.apk|8d0592bc086e30bf8a84c3daa43cadd65c77ba54
+-priv-app/ImsService/ImsService.apk|0bf3cb3afee67937e97a0ad41b2694b19c497713
 
 # VT (Video Telephony) - from RMX2151_11_F.01
 -bin/vtservice|75eeb851d490ea9bc20c182ffa2b0a76f871a32d
