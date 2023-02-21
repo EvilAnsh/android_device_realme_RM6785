@@ -1,3 +1,6 @@
+# Camera
+vendor.camera.aux.packagelist=com.android.camera,org.lineageos.aperture,org.lineageos.aperture.dev
+
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
 
