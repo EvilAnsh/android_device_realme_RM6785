@@ -2,3 +2,8 @@ hidl_package_root {
     name: "vendor.oplus.hardware",
     path: "device/realme/RM6785/interfaces",
 }
+
+hidl_package_root {
+    name: "vendor.mediatek.hardware.mtkpower",
+    path: "device/realme/RM6785/interfaces",
+}
