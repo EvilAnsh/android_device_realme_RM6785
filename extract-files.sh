@@ -37,9 +37,11 @@ function blob_fixup {
             sed -i "s/\x34\xE8\x87\x40\xB9/\x34\x28\x02\x80\x52/" "$2"
             ;;
         vendor/lib64/hw/dfps.mt6785.so |\
+        vendor/lib64/hw/android.hardware.thermal@2.0-impl.so |\
         vendor/lib64/hw/vendor.mediatek.hardware.pq@2.6-impl.so |\
-        vendor/lib64/hw/android.hardware.thermal@2.0-impl.so)
+        vendor/lib64/libaalservice.so)
             "$PATCHELF" --replace-needed "libutils.so" "libutils-v32.so" "$2"
+            sed -i 's/_ZN7android6Thread3runEPKcim/_ZN7utils326Thread3runEPKcim/g' "$2"
             ;;
         vendor/lib/hw/audio.primary.mt6785.so)
             "$PATCHELF" --replace-needed "libmedia_helper.so" "libmedia_helper-v30.so" "$2"
