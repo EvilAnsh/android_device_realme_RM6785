@@ -1,0 +1,20 @@
+//
+// Copyright (C) 2022-2023 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_shared {
+    name: "libshim_mtkcam",
+    vendor: true,
+    srcs: [
+        "PropertyMap.cpp",
+        "PropertyMap_fuzz.cpp",
+    ],
+    include_dirs: [ "frameworks/native/include" ],
+    shared_libs: [
+        "libutils",
+        "libbase",
+        "liblog",
+    ],
+}

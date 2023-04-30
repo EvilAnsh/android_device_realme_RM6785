@@ -57,7 +57,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.6.vendor:64
 
 PRODUCT_PACKAGES += \
-    libshim_camera_metadata
+    libshim_camera_metadata \
+    libshim_mtkcam
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -322,7 +323,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libmedia_helper-v30 \
     libutils-v32 \
-    libutils-v30 \
     libui-v32
 
 # Wi-Fi
