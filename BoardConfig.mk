@@ -44,6 +44,7 @@ TARGET_SCREEN_DENSITY := 420
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
+BOARD_KERNEL_CMDLINE += kpti=off
 TARGET_KERNEL_SOURCE := kernel/realme/mt6785
 TARGET_KERNEL_CONFIG := RM6785_defconfig
 TARGET_KERNEL_ADDITIONAL_FLAGS := HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument"
