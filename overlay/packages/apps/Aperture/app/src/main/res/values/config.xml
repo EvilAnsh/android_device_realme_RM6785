@@ -2,4 +2,7 @@
 <resources>
     <!-- Enable auxiliary cameras selector. -->
     <bool name="config_enableAuxCameras">true</bool>
+
+    <!-- Default component for QR code scanner -->
+    <string name="config_defaultQrCodeComponent">org.lineageos.aperture/.QrScannerActivity</string>
 </resources>
