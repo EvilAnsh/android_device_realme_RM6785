@@ -16,6 +16,8 @@ $(call inherit-product, device/realme/RM6785/device.mk)
 $(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
+PRODUCT_NAME := cherish_RM6785
+PRODUCT_DEVICE := RM6785
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := RM6785
 PRODUCT_MANUFACTURER := realme
@@ -25,6 +27,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
+CHERISH_BUILD_TYPE := OFFICIAL
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=ꪖ​ꪀ𝘴ꫝ|邪惡的
