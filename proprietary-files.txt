@@ -1056,9 +1056,11 @@ vendor/etc/ncf_pack.ncf
 
 # Connectivity (Firmware)
 vendor/firmware/soc1_0_patch_mcu_2a_1_hdr.bin
-vendor/firmware/soc1_0_ram_bt_2a_1_hdr.bin
 vendor/firmware/soc1_0_ram_mcu_2a_1_hdr.bin
 vendor/firmware/soc1_0_ram_wifi_2a_1_hdr.bin
+
+# Connectivity (Firmware) - from RMX3085_11_A.01
+vendor/firmware/soc1_0_ram_bt_2a_1_hdr.bin|996c0c2e822c766dd628b0c407d986f63176fb46
 
 # Dplanner
 -vendor/bin/hw/vendor.mediatek.hardware.dplanner@2.0-service
