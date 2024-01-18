@@ -1,0 +1,7 @@
+prebuilts/clang/host/linux-x86/proton-clang 
+vendor/realme/RM6785-common 
+vendor/realme-firmware
+kernel/realme/mt6785
+device/mediatek/sepolicy_vndr 
+hardware/mediatek
+hardware/lineage/compat
