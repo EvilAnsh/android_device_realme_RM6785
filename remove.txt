@@ -1,4 +1,4 @@
-prebuilts/clang/host/linux-x86/proton-clang 
+prebuilts/clang/host/linux-x86/r498229b
 vendor/realme/RM6785-common 
 vendor/realme-firmware
 kernel/realme/mt6785
