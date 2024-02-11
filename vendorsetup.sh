@@ -4,7 +4,7 @@ echo 'Cloning RM6785 Vendor tree [1/7]'
 rm -rf vendor/realme/RM6785-common
 if [ ! -d "vendor/realme/RM6785-common" ]; then
     mkdir -p vendor/realme/RM6785-common
-    git clone https://github.com/EvilAnsh/proprietary_vendor_realme_RM6785-common.git -b lineage-21 vendor/realme/RM6785-common
+    git clone https://github.com/realme-mt6785-devs/proprietary_vendor_realme_RM6785-common -b lineage-21 vendor/realme/RM6785-common
 fi
 
 echo 'Cloning Vendor-Firmware[2/7]'
