@@ -20,7 +20,7 @@ echo 'Cloning Kernel tree [3/7]'
 rm -rf kernel/realme/mt6785
 if [ ! -d "kernel/realme/mt6785" ]; then
     mkdir -p kernel/realme/mt6785
-    git clone https://github.com/EvilAnsh/android_kernel_realme_mt6785.git -b R-based-nonksu kernel/realme/mt6785
+    git clone https://github.com/PixelOS-Devices/android_kernel_realme_mt6785 -b fourteen kernel/realme/mt6785
 fi
 
 echo 'Cloning Mediatek SEpolicy_vndr [4/7]'
