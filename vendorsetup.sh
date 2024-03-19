@@ -39,14 +39,6 @@ if [ ! -d "hardware/mediatek" ]; then
     git clone https://github.com/realme-mt6785-devs/android_hardware_mediatek.git -b lineage-21 hardware/mediatek
 fi
 
-echo 'Sync some stuff from lineage [6/7]'
-# Lineage Compat
-rm -rf hardware/lineage/compat
-if [ ! -d "hardware/lineage/compat" ]; then
-    mkdir -p hardware/lineage/compat
-    git clone https://github.com/LineageOS/android_hardware_lineage_compat.git -b lineage-21.0 hardware/lineage/compat
-fi
-
 echo 'Cloning AOSP Clang 17.0.4 [7/7]' 
 # AOSP Clang 17.0.4 
 rm -rf prebuilts/clang/host/linux-x86/r498229b 
